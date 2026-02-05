@@ -1,0 +1,53 @@
+{
+  "guild_id": 1454515983690633228,
+  "prison": {
+    "channel_realizar_prisao_id": 1459995084056563844,
+    "channel_registro_prisoes_id": 1459995130688700559,
+    "channel_db_prisao_id": 1459995160648745161,
+    "channel_rank_id": 1454527305056518249,
+    "channel_prisao_adm_id": 1454594493826203731,
+    "admin_role_ids": [
+      1460001252653006881,
+      1459995776523698287,
+      1459995369684340767
+    ],
+    "panel_message_id": 1460023181158121484,
+    "rank_message_id": 1460022187829362790
+  },
+  "tickets": {
+    "category_id": 1459993787979010120,
+    "panel_channel_id": 1459993813765591285,
+    "channel_adm_ticket_id": 1459996184138616895,
+    "channel_registro_ticket_id": 1459996259741077566,
+    "admin_role_ids": [
+      1460001252653006881,
+      1459995776523698287
+    ],
+    "panel_message_id": 1460023226326323295,
+    "notify_after_minutes": 60
+  },
+  "exoneracao": {
+    "channel_exonerados_id": 1460006001057992815
+  },
+  "admin_panel": {
+    "panel_channel_id": 1462644071221690511,
+    "panel_message_id": 0,
+    "admin_role_ids": [
+      1460001252653006881,
+      1459995776523698287
+    ]
+  },
+  "punicao": {
+    "channel_punicao_id": 1462649201275047976,
+    "adv_role_ids": {
+      "adv1": 1462645689359142942,
+      "adv2": 1462645694048239658,
+      "adv3": 1462645696866947073,
+      "adv_formal": 1462645765049417893
+    }
+  },
+  "bot": {
+    "command_prefix": "!",
+    "timezone": "America/Sao_Paulo"
+  }
+}

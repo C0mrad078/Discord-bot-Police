@@ -1,0 +1,6 @@
+.env
+.env.*
+*.env
+
+# PyCharm / IntelliJ
+.idea/
