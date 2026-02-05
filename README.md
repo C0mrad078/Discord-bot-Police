@@ -1,76 +1,176 @@
-🚔 Discord Bot – Hype Police
+# 🚔 Hype Police Discord Bot
 
-Bot desenvolvido para gerenciamento e automação de rotinas administrativas dentro de servidores Discord voltados para simulações policiais, comunidades organizadas ou equipes hierárquicas.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![discord.py](https://img.shields.io/badge/Library-discord.py-5865F2)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-O projeto tem como foco facilitar o controle operacional, organização de atendimentos e registro de ações internas, utilizando uma estrutura modular baseada em discord.py, permitindo fácil expansão e manutenção.
+Bot desenvolvido para automação e gerenciamento operacional de
+servidores Discord com estrutura hierárquica, atendimento interno e
+registro de ocorrências.
 
-⚙️ Funcionalidades Principais
+Projetado com foco em organização, escalabilidade e facilidade de
+manutenção.
 
-✅ Sistema de Tickets
+------------------------------------------------------------------------
 
-Criação automática de canais de atendimento
+## 📌 Sobre o Projeto
 
-Controle de permissões por cargos
+O **Hype Police Bot** foi criado para auxiliar comunidades estruturadas
+(RP policial, organizações administrativas e equipes operacionais)
+oferecendo ferramentas completas de controle interno e automação.
 
-Possibilidade de assumir tickets por equipes administrativas
+O sistema utiliza arquitetura modular baseada em **Cogs**, permitindo
+expansão rápida e manutenção simples.
 
-Organização por categorias configuráveis
+------------------------------------------------------------------------
 
-✅ Sistema de Registros (Prisões / Ocorrências)
+## ⚙️ Funcionalidades
 
-Registro estruturado de ações operacionais
+### 🎫 Sistema de Tickets
 
-Armazenamento e organização de dados
+-   Criação automática de canais de atendimento\
+-   Controle de acesso por cargos\
+-   Possibilidade de assumir tickets\
+-   Organização por categorias configuráveis\
+-   Fluxo estruturado de suporte
 
-Integração com canais específicos de log
+------------------------------------------------------------------------
 
-✅ Painel Administrativo
+### 📋 Sistema de Registros Operacionais
 
-Controle de permissões por cargos hierárquicos
+-   Registro de prisões / ocorrências\
+-   Armazenamento organizado\
+-   Logs automáticos em canais específicos\
+-   Estrutura padronizada para controle interno
 
-Gerenciamento centralizado das funções do bot
+------------------------------------------------------------------------
 
-✅ Configuração Modular
+### 🛠️ Painel Administrativo
 
-Sistema baseado em arquivos JSON
+-   Controle de permissões hierárquicas\
+-   Configuração centralizada\
+-   Gerenciamento de atendimentos e registros
 
-Estrutura separada por Cogs
+------------------------------------------------------------------------
 
-Fácil personalização e expansão
+### ⚡ Arquitetura Modular
 
-🧠 Tecnologias Utilizadas
+-   Separação por Cogs\
+-   Sistema de permissões independente\
+-   Configuração externa via JSON\
+-   Fácil personalização
 
-Python 3.x
+------------------------------------------------------------------------
 
-discord.py
+## 🧠 Tecnologias Utilizadas
 
-Estrutura modular com Cogs
+-   Python 3.10+
+-   discord.py
+-   JSON para configuração
+-   Variáveis de ambiente (.env)
+-   Estrutura modular com Cogs
 
-Sistema de configuração externa via JSON
+------------------------------------------------------------------------
 
-Integração com variáveis de ambiente (.env)
+## 📁 Estrutura do Projeto
 
-📦 Objetivo do Projeto
+    📦 hype-police-discord
+     ┣ 📂 cogs
+     ┃ ┣ admin_panel.py
+     ┃ ┣ tickets.py
+     ┃ ┣ prisao.py
+     ┣ 📂 utils
+     ┃ ┣ config.py
+     ┃ ┣ perm.py
+     ┃ ┣ timeutils.py
+     ┣ main.py
+     ┣ config.json
+     ┣ requirements.txt
+     ┣ discloud.config
+     ┗ README.md
 
-Fornecer uma solução completa para automação e organização de servidores Discord que necessitam de controle hierárquico, atendimento estruturado e registro de atividades internas.
+------------------------------------------------------------------------
 
-🚀 Possíveis Expansões Futuras
+## 🚀 Instalação
 
-Sistema de ranking automático
+### 1️⃣ Clonar repositório
 
-Banco de dados persistente
+    git clone https://github.com/seuusuario/Discord-bot-Police.git
+    cd Discord-bot-Police
 
-Painel Web de administração
+------------------------------------------------------------------------
 
-Dashboard de estatísticas
+### 2️⃣ Instalar dependências
 
-Integração com APIs externas
+    pip install -r requirements.txt
 
-Se quiser, posso também montar:
+------------------------------------------------------------------------
 
-✅ README completo padrão open-source
-✅ Badges automáticos (Python, licença, status, etc.)
-✅ Estrutura profissional estilo projetos grandes
-✅ Documentação de instalação passo a passo
-✅ Guia para deploy (Discloud / VPS / Docker)
-✅ Licença recomendada para o projeto
+### 3️⃣ Criar arquivo .env
+
+Crie um arquivo `.env` na raiz:
+
+    DISCORD_TOKEN=seu_token_aqui
+
+------------------------------------------------------------------------
+
+### 4️⃣ Executar o bot
+
+    python main.py
+
+------------------------------------------------------------------------
+
+## 🔐 Segurança
+
+⚠️ Nunca compartilhe seu token do Discord\
+⚠️ O `.env` não deve ser versionado\
+⚠️ Sempre utilize `.env.example` como modelo
+
+------------------------------------------------------------------------
+
+## ☁️ Deploy
+
+O projeto possui suporte para deploy via:
+
+-   Discloud\
+-   VPS Linux\
+-   Docker (planejado)
+
+------------------------------------------------------------------------
+
+## 📊 Roadmap
+
+-   [ ] Sistema de ranking automático\
+-   [ ] Banco de dados persistente\
+-   [ ] Painel Web administrativo\
+-   [ ] Dashboard de estatísticas\
+-   [ ] Logs avançados\
+-   [ ] Sistema de auditoria
+
+------------------------------------------------------------------------
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas!
+
+1.  Fork o projeto\
+2.  Crie sua branch\
+3.  Commit suas alterações\
+4.  Abra um Pull Request
+
+------------------------------------------------------------------------
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT.
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Jhonatan Matos Schmitt**
+
+------------------------------------------------------------------------
+
+# ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
